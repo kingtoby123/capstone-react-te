@@ -1,0 +1,48 @@
+.area-below-header{
+
+    .text-area{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        background-color: tan;
+        width: 100%;
+
+
+        .contact-heading{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+
+        .paragraph-text{
+            display: grid;
+            width: 800px;
+
+            p{
+                font-size: 150%;
+                color: black ;
+            }
+        }
+        
+    }
+
+}
+
+.contact-area-wrapper{
+
+    .contact-area-heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+    
+}

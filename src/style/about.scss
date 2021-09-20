@@ -1,0 +1,46 @@
+.content-page-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 150px;
+
+    .heading{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        padding-left: 100px;
+        height: 85px;
+        background-color: orangered;
+        width: 100%;
+
+    }
+
+
+
+    .image{
+
+        padding-top: 100px;
+        img{
+            height: 1000px;
+            width: 800px;
+            padding-left: 200px;
+
+        }
+    }
+  
+    .right-column {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 100px;
+
+      p{
+          font-size: 1.5em;
+      }
+  
+    }
+  }
+  

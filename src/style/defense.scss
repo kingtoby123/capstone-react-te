@@ -1,0 +1,98 @@
+.defense-wrapper{
+    display: grid;
+
+
+    .information-defense-wrapper{
+        background-color: burlywood;
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100px;
+        }
+    }
+
+    .defense-warmup-wrapper{
+        .defense-warmup-heading{
+            h3{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .defense-warmup-tips{
+            p{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+        }
+    }
+    .defense-tips-wrapper{
+        .defense-tip-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .defense-tips{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .defense-drill-content{
+        .defense-drill-content-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form-defense-content{
+            .form-defense-content-heading{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            }
+
+            .form-defense{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        .offensive-defense-content{
+            .offensive-defense-content-heading{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .offensive-defense{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+
+        }
+    }
+
+}
+

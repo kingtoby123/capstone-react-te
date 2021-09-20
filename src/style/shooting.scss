@@ -1,0 +1,98 @@
+.shooting-wrapper{
+    display: grid;
+
+
+    .information-shooting-wrapper{
+        background-color: burlywood;
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100px;
+        }
+    }
+
+    .shooting-warmup-wrapper{
+        .shooting-warmup-heading{
+            h3{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .shooting-warmup-tips{
+            p{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+        }
+    }
+    .shooting-tips-wrapper{
+        .shooting-tip-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .shooting-tips{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .shooting-drill-content{
+        .shooting-drill-content-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form-shooting-content{
+            .form-shooting-content-heading{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            }
+
+            .form-shooting{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        .offensive-shooting-content{
+            .offensive-shooting-content-heading{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .offensive-shooting{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+
+        }
+    }
+
+}
+

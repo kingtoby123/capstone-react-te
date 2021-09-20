@@ -1,0 +1,121 @@
+.blog-wrapper{
+
+    
+    .heading-blog-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        width: 100vw;
+        background-color: orangered;
+    }
+
+    .information-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding-top:100px ;
+        .text-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .tips-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 700px;
+
+        .stretching-section{
+
+            .static{
+                ul{
+                    padding-right: 300px;
+                }
+            }
+        }
+    }
+    
+    .drills-wrapper{
+        display: flex;
+        align-items: center;        
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        padding-bottom: 100px;
+
+        .drill-information{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            h3{
+                font-size: 2em;
+                padding-right: 75px;
+            }
+        }
+
+        .tip-category{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 1000px;
+
+            
+            
+            .shooting{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img{
+                    height: 200px;
+                    width: 200px;
+                    padding-bottom: 25px;
+
+                }
+            }
+
+            .ball-handling{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                
+
+                img{
+                    height: 200px;
+                    width: 200px;
+                    padding-bottom: 25px;
+
+                }
+            }
+
+            .defense{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img{
+                    padding-bottom: 25px;
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+    
+    .tips-section{
+        
+        
+        .stretching-section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

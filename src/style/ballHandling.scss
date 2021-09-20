@@ -1,0 +1,98 @@
+.ball-handling-wrapper{
+    display: grid;
+
+
+    .information-ball-handling-wrapper{
+        background-color: burlywood;
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100px;
+        }
+    }
+
+    .ball-handling-warmup-wrapper{
+        .ball-handling-warmup-heading{
+            h3{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .ball-handling-warmup-tips{
+            p{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+        }
+    }
+    .ball-handling-tips-wrapper{
+        .ball-handling-tip-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ball-handling-tips{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .ball-handling-drill-content{
+        .ball-handling-drill-content-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form-ball-handling-content{
+            .form-ball-handling-content-heading{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            }
+
+            .form-ball-handling{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        .offensive-ball-handling-content{
+            .offensive-ball-handling-content-heading{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .offensive-ball-handling{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+
+        }
+    }
+
+}
+
