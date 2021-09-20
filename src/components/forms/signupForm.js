@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Basketballhoop from "../../../static/assets/images/logos/Basketball-hoop.jpg"
+import Basketballhoop from "../../../static/assets/images/logos/basketball-hoop.jpg"
 
 import Cookies from 'js-cookie';
 
