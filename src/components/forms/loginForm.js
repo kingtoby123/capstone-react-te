@@ -28,7 +28,7 @@ export default class LoginForm extends Component {
             error: "",
           });
     
-          fetch("http://127.0.0.1:5000/user/verification", {
+          fetch("https://capstone-basketball-react-te.herokuapp.com/user/verification", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({
@@ -117,6 +117,7 @@ export default class LoginForm extends Component {
                   />
               </div>
 
+              
 
               <button type="submit" disabled={this.state.loading}>Log In</button>
 

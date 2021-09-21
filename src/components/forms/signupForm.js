@@ -12,6 +12,7 @@ export default class SignupForm extends Component {
             username: "",
             password: "",
             passwordComfirm: "",
+            name: "",
             error: "",
             loading: false
         }
@@ -34,7 +35,7 @@ export default class SignupForm extends Component {
             error: "",
           });
     
-          fetch("http://127.0.0.1:5000/user/add", {
+          fetch("https://capstone-basketball-react-te.herokuapp.com/user/add", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({
@@ -48,8 +49,9 @@ export default class SignupForm extends Component {
     
                 this.setState({ loading: false });
 
-                // this.props.handleSetUser(data);
+                this.props.handleSetUser(data);
                 Cookies.set("username", this.state.username);
+                this.props.changeRoute("/"); 
                 
             })
             .catch((error) => {
@@ -128,9 +130,20 @@ export default class SignupForm extends Component {
                         />
                   </div>
 
+                  <div className="form-group">
+                    <input type="text" 
+                        placeholder="Full Name"
+                        name="name"
+                        value={this.state.name}
+                        onChange={this.handleChange}
+                        />
+                  </div>
+
+
     
     
                   <button type="submit" disabled={this.state.loading}>Signup</button>
+                  <p>{this.state.error}</p>
     
     
                 </form>

@@ -1,14 +1,20 @@
 import React from 'react'
+import emailjs from "emailjs-com"
 
 export default function contact (props) {
-  function sendEmail(e) {
-    e.preventDefault();
 
-    emailjs.sendForm("service_4cx74uu", "template_aqto6xc", e.target, "user_6MfeK5RxUPXBPqV9Mvq2V")
-    .then((result) => {
-        console.log(result.text); window.location.reload()
-    }).catch(error => console.log("You have an error in user message submit" , error))
-  }
+
+  function sendEmail(e) {
+     e.preventDefault();
+
+    emailjs.sendForm('service_4cx74uu', 'template_hrb5jsi', e.target, 'user_6MfeK5RxUPXBPqV9Mvq2V')
+      .then((result) => {
+          console.log(result.text); window.location.reload()
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
 
     return (
         <div className="contact-wrapper">
