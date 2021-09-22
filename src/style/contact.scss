@@ -1,12 +1,13 @@
 .area-below-header{
 
     .text-area{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 300px;
         background-color: tan;
-        width: 100%;
+        width: 100vw;
 
 
         .contact-heading{

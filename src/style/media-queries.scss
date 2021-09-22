@@ -154,4 +154,56 @@
 
     }
 
+    // contact area
+    .contact-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+
+        .area-below-header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+
+            .text-area{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+                height: 100vh;
+
+                .contact-heading{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100vw;
+                    height: 100vh;
+
+                    h3{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .paragraph-text{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100vw;
+                    height: 100vh;
+                }
+            }
+
+        }
+
+    }
+
 }

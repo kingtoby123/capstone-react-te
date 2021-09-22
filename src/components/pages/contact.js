@@ -18,7 +18,6 @@ export default function contact (props) {
 
     return (
         <div className="contact-wrapper">
-          <div>
 
             <div className="area-below-header">
 
@@ -31,7 +30,7 @@ export default function contact (props) {
 
                     <div className="paragraph-text">
 
-                        <p>Here at MyHoops we want everyone to feel invited to come and explore and also interact with us! here you can find our inforamtion on how to contact us! if you want to book a private session or just have a simple queston we are here for you so please just send us a email and we will get back to you witin 24 Hours </p>
+                        <p>Here at MyHoops we want everyone to feel invited to come and explore and also interact with us! here you can find our inforamtion on how to contact us! if you want to book a private session or just have a simple queston we are here for you so please just send us an email with your contact information</p>
                     </div>
 
                 </div>
@@ -83,7 +82,6 @@ export default function contact (props) {
 
                 </div>
             </div>
-</div>
 </div>
     )
 }
