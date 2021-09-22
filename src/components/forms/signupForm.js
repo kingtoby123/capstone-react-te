@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Basketballhoop from "../../../static/assets/images/logos/basketball-hoop.jpg"
 
 import Cookies from 'js-cookie';
 
@@ -83,18 +82,6 @@ export default class SignupForm extends Component {
             <div className="login-input-wrapper">
     
     
-              <div className="header-login">
-                <h1>LOGIN TO ACCESS AWESOMENESS</h1>
-    
-              </div>
-    
-    
-    
-              <div className="image">
-                <img src={Basketballhoop} alt="basketball hoop" />
-              </div>
-    
-    
     
               <div className="login-form-wrapper">
     
@@ -140,11 +127,12 @@ export default class SignupForm extends Component {
                         />
                   </div>
 
-
-    
+                  <div className="login-button">
     
                   <button type="submit" disabled={this.state.loading}>Signup</button>
                   <p>{this.state.error}</p>
+                  
+                  </div>
     
     
                 </form>

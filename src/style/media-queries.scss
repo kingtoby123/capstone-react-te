@@ -19,7 +19,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vw;
+
+        .left-side{
+            flex-direction: column;
+        }
 
     .nav-link-wrapper {
         align-items: center;
@@ -121,38 +124,74 @@
 
     .content-page-wrapper {
         width: 100vw;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-        .heading{
+        .heading-wrapper{
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
             width: 100vw;
-        }
-
-        .image{
-            display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-            width: 100vw;
-            height: 100vh;
 
-            img{
+            
+            .heading{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
                 width: 100vw;
             }
         }
 
-        .right-column{
-            display: grid;
-            grid-template-columns: 1fr;
+
+
+        .about-image{
+
+            .image{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+                height: 100px;
+                
+                img{
+                    width: 100vw;
+                }
+            }
         }
+        
+        .bottom-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 200px;
 
+            .about-bottom-text{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+                height: 100px;
+                p{
+                    height: 100px;
+                    
+                }
 
+                
+            }
+        }
     }
+        
+
 
     // contact area
     .contact-wrapper{
@@ -240,6 +279,59 @@
                 
             }
         }
+
+        .drills-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            .tip-category{
+                display: grid;
+                grid-template-columns: 1fr;
+                width: 100vw;
+
+                .shooting{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100vw;
+
+                    img{
+                        width: 100vw;
+                    }
+                }
+
+                .ball-handling{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100vw;
+
+                    img{
+                        width: 100vw;
+                    }
+                }
+
+                .defense{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100vw;
+
+                    img{
+                        width: 100vw;
+                    }
+                }
+            }
+        }
+
+
+
+        
 
 
 }

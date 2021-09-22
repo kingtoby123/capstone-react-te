@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Basketballhoop from "../../../static/assets/images/logos/basketball-hoop.jpg"
 import Cookies from 'js-cookie';
 
 
@@ -82,13 +81,6 @@ export default class LoginForm extends Component {
             <h1>LOGIN TO ACCESS AWESOMENESS</h1>
 
           </div>
-
-
-
-          <div className="image">
-            <img src={Basketballhoop} alt="basketball hoop" />
-          </div>
-
 
 
           <div className="login-form-wrapper">

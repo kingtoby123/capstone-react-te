@@ -37,9 +37,8 @@ export default class App extends Component {
             <Route path="/defense" component={Defense}/>
             <Route path="/handling" component={Handling}/>
             <Route path="/shooting" component={Shooting}/>
-
           </Switch>
-          <Footer/>
+            <Footer/>
         </Router>
 
 

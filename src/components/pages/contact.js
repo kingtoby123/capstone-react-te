@@ -82,6 +82,6 @@ export default function contact (props) {
 
                 </div>
             </div>
-</div>
+        </div>
     )
 }

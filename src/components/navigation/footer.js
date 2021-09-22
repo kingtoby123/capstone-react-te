@@ -26,11 +26,7 @@ export default function footer(props) {
                   </NavLink>
                 </div>
 
-                <div className="nav-link-wrapper">
-                  <NavLink to="/blog" activeClassName="nav-link-active">
-                    Blog
-                  </NavLink>
-                </div>
+               
 
             </div>
             <div className="social-media">
