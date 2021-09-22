@@ -206,4 +206,40 @@
 
     }
 
+    // drills area
+    
+        .tips-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100vw;
+
+            .stretching-section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+
+                .static{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100vw;
+
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100vw;
+                    }
+                }
+
+                
+            }
+        }
+
+
 }

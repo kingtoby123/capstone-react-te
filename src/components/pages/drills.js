@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Footer from "../navigation/footer";
 import { NavLink } from "react-router-dom";
 
 import CummingShootingForm from "../../../static/assets/images/logos/cummings-shooting-drill.jpg"
