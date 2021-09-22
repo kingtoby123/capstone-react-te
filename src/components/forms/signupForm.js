@@ -35,19 +35,20 @@ export default class SignupForm extends Component {
             error: "",
           });
     
-          fetch("https://capstone-basketball-react-te.herokuapp.com/user/add", {
+          fetch("https://capstone-basketball-api-te.herokuapp.com/user/add", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({
               username: this.state.username,
               password: this.state.password,
+              name: this.state.name
             }),
           })
             .then((response) => response.json())
             .then((data) => {
               console.log(data);
     
-                this.setState({ loading: false });
+              this.setState({ loading: false });
 
                 this.props.handleSetUser(data);
                 Cookies.set("username", this.state.username);

@@ -28,7 +28,7 @@ export default class LoginForm extends Component {
             error: "",
           });
     
-          fetch("https://capstone-basketball-react-te.herokuapp.com/user/verification", {
+          fetch("https://capstone-basketball-api-te.herokuapp.com/user/verification", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({

@@ -1,11 +1,11 @@
 .footer-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    display: flex;
+    justify-content: center;
     align-items: center;
     align-self: center;
     height: 200px;
     background-color: lightblue;
-    padding-left: 500px;
+    // padding-left: 500px;
 
     
 
