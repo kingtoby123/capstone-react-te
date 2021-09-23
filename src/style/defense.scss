@@ -13,7 +13,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 100vw;
+            text-align: center;
+            width: 85vw;
+            padding-left: 5px;
             height: 100px;
         }
     }
@@ -28,16 +30,24 @@
         }
 
         .defense-warmup-tips{
-            p{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             width: 100vw;
+
+            p{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 85vw;
+            }
+
+            ul{
+                padding: 0px;
+            }
+           
         }
     }
     .defense-tips-wrapper{
@@ -52,6 +62,16 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+
+            p{
+                width: 85vw;
+                text-align: center;
+            }
+
+            ul{
+                padding: 0px;
+            }
+
         }
     }
     .defense-drill-content{
