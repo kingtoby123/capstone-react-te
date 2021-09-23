@@ -42,17 +42,27 @@ export default class Drills extends Component {
                         <div className="static">
 
                             <h3>Static</h3>
-                            <ul>Hamstring stretch </ul>
-                            <ul> Quadriceps Stretch</ul>
-                            <ul> Groin Stretch</ul>
-                            <ul> calf Stretch</ul>
+                            <div className="static-text">
+
+                                <ul>Hamstring stretch </ul>
+                                <ul> Quadriceps Stretch</ul>
+                                <ul> Groin Stretch</ul>
+                                <ul> calf Stretch</ul>
+                            </div>
                         </div>
 
                         <div className="dynamic">
-                            <h3>dynamic</h3>
-                            <ul>light jog</ul>
-                            <ul>shuffle</ul>
-                            <ul>shuffle</ul>
+                            <div className="dynamic-heading">
+                                <h3>dynamic</h3>
+
+                            </div>
+
+                            <div className="dynamic-text">
+
+                                <ul>light jog</ul>
+                                <ul>shuffle</ul>
+                                <ul>shuffle</ul>
+                            </div>
 
 
                         </div>

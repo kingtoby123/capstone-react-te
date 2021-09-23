@@ -47,3 +47,5 @@ export default class App extends Component {
     );
   }
 }
+
+// home align 

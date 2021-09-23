@@ -1,7 +1,7 @@
 .login-information-wrapper{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     background-color: orangered;
     text-align: center;
@@ -15,10 +15,11 @@
 
     .login-information-text{
         width: 85vw;
+        display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
-        padding-left:30px ;
+        
         
         
         p{

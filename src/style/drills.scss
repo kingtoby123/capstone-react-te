@@ -32,10 +32,44 @@
         flex-direction: column;
         text-align: center;
         width: 100vw;
-        padding-left: 20px;
 
         p{
             width: 85vw;
+        }
+
+        .stretching-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            
+            .static{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding-right: 50px;
+
+                    ul{
+                        align-items: center;
+                        text-align: center;
+                    }
+            }
+            .dynamic{
+
+                .dynamic-heading{
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    padding-right: 30px;
+                }
+
+                .dynamic-text{
+                    padding-right: 50px;
+                }
+            }
         }
 
 
@@ -57,7 +91,6 @@
             
             h3{
                 font-size: 2em;
-                padding-right: 75px;
             }
         }
 
