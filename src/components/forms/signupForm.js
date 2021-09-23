@@ -74,9 +74,15 @@ export default class SignupForm extends Component {
 
             <div className="login-information-wrapper">
               <h3>BALLER LOGIN</h3>
-              <p>
-                Hello! Welcome to the KingOfHoops login page, put your information into the content below and lets get started on getting better today! Get your accsess to free basktball training drills
-              </p>
+
+              <div className="login-information-text">
+
+                <p>
+                  Hello! Welcome to the KingOfHoops login page, put your information into the content below and lets get started on getting better today! Get your accsess to free basktball training drills
+                </p>
+
+              </div>
+              
             </div>
     
             <div className="login-input-wrapper">
@@ -129,7 +135,7 @@ export default class SignupForm extends Component {
 
                   <div className="login-button">
     
-                  <button type="submit" disabled={this.state.loading}>Signup</button>
+                  <button className="btn" type="submit" disabled={this.state.loading}>Signup</button>
                   <p>{this.state.error}</p>
                   
                   </div>

@@ -12,7 +12,7 @@
         flex-direction: column;
 
         .home-heading-text{
-            width: 800px;
+            width: 75vw;
         }
 
     }
@@ -23,10 +23,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
 
     .home-motivation-text{
-        width: 900px;
+        width: 85vw;
+        text-align: center;
     }
 }
 
@@ -42,6 +42,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 85vw;
+
         
     }
 
@@ -50,20 +52,21 @@
         grid-template-columns: 1fr 1fr;
         
         
+        
         .left-box{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            text-align: center;
             
             height: 500px;
-            // width: 700px;
             background-color: gray;
 
             .left-box-image{
                 img{
                     height: 300px;
-                    width: 50vw;
+                    width: 40vw;
                 }
             }
         }
@@ -74,15 +77,16 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            text-align: center;
+
 
             height: 500px;
-            // width: 700px;
             background-color: lightcoral;
 
             .right-box-image{
                 img{
                     height: 300px;
-                    width: 50vw;
+                    width: 40vw;
                 }
             }
         }

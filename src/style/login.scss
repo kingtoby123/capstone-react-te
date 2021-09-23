@@ -3,23 +3,27 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    height: 400px;
-    width: 100vw;
     background-color: orangered;
+    text-align: center;
+    width: 100vw;
 
 
     h3{
         font-size: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-
+        
     }
 
-    p{
-        font-size: 25px;
+    .login-information-text{
+        width: 85vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+        
+        p{
+            font-size: 25px;
+            
+        }
     }
     
 }
@@ -31,6 +35,7 @@
     justify-content: center;
     width: 100vw;
     height: 400px;
+    text-align: center;
 
     
     .login-form-wrapper{
@@ -53,8 +58,41 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
+                padding: 10px;
+
+                input{
+                    font-size: 1.5rem;
+                    font-family: inherit;
+                    color: inherit;
+                    padding: 10px;
+                    border-radius: 2px;
+                    border-bottom: 3px solid rgb(128, 58, 0);
+                    width: 100%;
+                    display: block;
+                    transition: all .3s;
+                }
+
+               
+
+            
                 
             }
         }
     }
+    
 }
+.signup-wrapper{
+    p{
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .login-button{
+        text-align: center;
+        align-items: center;
+    }
+
+
+}
+

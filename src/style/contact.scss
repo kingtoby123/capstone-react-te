@@ -5,9 +5,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 300px;
         background-color: tan;
         width: 100vw;
+        text-align: center;
 
 
         .contact-heading{
@@ -19,7 +19,8 @@
 
         .paragraph-text{
             display: grid;
-            width: 800px;
+            width: 50vw;
+            text-align: center;
 
             p{
                 font-size: 150%;
@@ -33,17 +34,57 @@
 
 .contact-area-wrapper{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
     .contact-area-heading{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
+
+    .form{
+
+        .form-group{
+            padding: 10px;
+
+        }
+
+        input{
+            font-size: 1.5rem;
+            font-family: inherit;
+            color: inherit;
+            padding: 10px;
+            border-radius: 2px;
+            border-bottom: 3px solid rgb(128, 58, 0);
+            width: 100%;
+            display: block;
+            transition: all .3s;
+        }
+
+        textarea{
+                    
+            font-size: 1.5rem;
+            font-family: inherit;
+            color: inherit;
+            padding: 10px;
+            border-radius: 2px;
+            border-bottom: 3px solid rgb(128, 58, 0);
+            width: 100%;
+            display: block;
+            transition: all .3s;
+        }
+
+        .centered-btn-wrapper{
+            text-align: center;
+        }
+
+    }
+    
 
     
 }

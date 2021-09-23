@@ -54,6 +54,7 @@
                 justify-content: center;
                 flex-direction: column;
                 width: 100vw;
+                text-align: center;
             }
         }
     }
@@ -71,6 +72,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            text-align: center;
         }
     }
 
@@ -80,6 +82,14 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
+
+        .heading-information{
+
+            .home-information-text{
+                text-align: center;
+            }
+
+        }
 
         .home-mini-box-wrapper{
             display: grid;
@@ -94,6 +104,15 @@
                 width: 100vw;
                 padding-top: 20px;
                 padding-bottom: 25px;
+                text-align: center;
+
+                
+
+                .left-box-text{
+                    align-items: center;
+                    text-align: center;
+
+                }
 
                 .left-box-image{
                     img{
@@ -110,6 +129,10 @@
                 width: 100vw;
                 padding-top: 20px;
                 padding-bottom: 25px;
+
+                .right-box-text{
+                    text-align: center;
+                }
 
                 .right-box-image{
                     img{
@@ -135,7 +158,6 @@
             align-items: center;
             justify-content: center;
             width: 100vw;
-            align-items: center;
             justify-content: center;
 
             
@@ -158,10 +180,11 @@
                 justify-content: center;
                 flex-direction: column;
                 width: 100vw;
-                height: 100px;
                 
                 img{
                     width: 100vw;
+                    height: 500px;
+
                 }
             }
         }
@@ -172,7 +195,7 @@
             justify-content: center;
             align-items: center;
             width: 100vw;
-            height: 200px;
+            text-align: center;
 
             .about-bottom-text{
                 display: flex;
@@ -180,11 +203,9 @@
                 justify-content: center;
                 flex-direction: column;
                 width: 100vw;
-                height: 100px;
-                p{
-                    height: 100px;
-                    
-                }
+                text-align: center;
+
+               
 
                 
             }
@@ -195,11 +216,7 @@
 
     // contact area
     .contact-wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100vw;
+       
 
         .area-below-header{
                 display: flex;
@@ -237,101 +254,181 @@
                     justify-content: center;
                     flex-direction: column;
                     width: 100vw;
-                    height: 100vh;
+                    text-align: center;
                 }
             }
 
+        }
+        .contact-area-wrapper{
+            .form{
+                .form-group{
+                    padding: 10px;
+        
+                }
+        
+                input{
+                    font-size: 1.5rem;
+                    font-family: inherit;
+                    color: inherit;
+                    padding: 10px;
+                    border-radius: 2px;
+                    border-bottom: 3px solid rgb(128, 58, 0);
+                    width: 65vw;
+                    display: block;
+                    transition: all .3s;
+                }
+
+                textarea{
+                    
+                    font-size: 1.5rem;
+                    font-family: inherit;
+                    color: inherit;
+                    padding: 10px;
+                    border-radius: 2px;
+                    border-bottom: 3px solid rgb(128, 58, 0);
+                    width: 65vw;
+                    display: block;
+                    transition: all .3s;
+                }
+            }
         }
 
     }
 
     // drills area
-    
-        .tips-section{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            width: 100vw;
 
-            .stretching-section{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                width: 100vw;
-
-                .static{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    width: 100vw;
-
-                    ul{
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        width: 100vw;
-                    }
-                }
-
-                
-            }
-        }
-
-        .drills-wrapper{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100vw;
-            .tip-category{
-                display: grid;
-                grid-template-columns: 1fr;
-                width: 100vw;
-
-                .shooting{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    width: 100vw;
-
-                    img{
-                        width: 100vw;
-                    }
-                }
-
-                .ball-handling{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    width: 100vw;
-
-                    img{
-                        width: 100vw;
-                    }
-                }
-
-                .defense{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    width: 100vw;
-
-                    img{
-                        width: 100vw;
-                    }
-                }
-            }
-        }
-
-
+    .heading-blog-wrapper{
+        text-align: center;
+    }
 
         
+    
+    .tips-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+
+        .stretching-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+
+            .static{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100vw;
+                }
+            }
+
+            
+        }
+    }
+
+    .drills-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        .tip-category{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100vw;
+
+            .shooting{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+
+                img{
+                    width: 100vw;
+                }
+            }
+
+            .ball-handling{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+
+                img{
+                    width: 100vw;
+                }
+            }
+
+            .defense{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100vw;
+
+                img{
+                    width: 100vw;
+                }
+            }
+        }
+    }
+
+    // login area
+
+    .signup-wrapper{
+        p{
+
+            text-align: center;
+            align-items: center;
+        }
+
+        .login-button{
+            text-align: center;
+            align-items: center;
+        }
+
+    }
+
+        .login-input-wrapper{
+
+            .login-form-wrapper{
+
+                .auth-form-wrapper{
+
+                    .form-group{
+                        width: 65vw;
 
 
+                        input{
+                            font-size: 1.5rem;
+                            font-family: inherit;
+                            color: inherit;
+                            padding: 10px;
+                            border-radius: 2px;
+                            border-bottom: 3px solid rgb(128, 58, 0);
+                            width: 65vw;
+                            display: block;
+                            transition: all .3s;
+                        }
+
+                    }
+                
+
+                }
+
+    }
+}
 }

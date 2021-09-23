@@ -1,6 +1,5 @@
 .content-page-wrapper {
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,9 +8,10 @@
 
     .heading-wrapper{
         width: 100vw;
-        height: 100vh;
         align-items: center;
         justify-content: center;
+        padding-top: 50px;
+
 
 
         
@@ -21,7 +21,6 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            height: 85px;
             background-color: orangered;
             width: 100vw;
             
@@ -35,16 +34,16 @@
         
         
         .image{
-
             padding-top: 100px;
+            
+
 
             img{
-                width: 50vw;
-                height: 75vh;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
+                
+               
+                width: 500px;
+                height: 600px;
+
 
             }
         }
