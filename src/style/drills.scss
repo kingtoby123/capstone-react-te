@@ -6,7 +6,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 200px;
         width: 100vw;
         background-color: orangered;
     }
@@ -22,6 +21,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+            width: 85vw;
         }
     }
 
@@ -30,6 +30,14 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        text-align: center;
+        width: 100vw;
+        padding-left: 20px;
+
+        p{
+            width: 85vw;
+        }
+
 
     }
     
@@ -45,6 +53,7 @@
             display: flex;
             align-items: center;
             flex-direction: column;
+            width: 85vw;
             
             h3{
                 font-size: 2em;

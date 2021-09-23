@@ -149,3 +149,5 @@ export default class SignupForm extends Component {
         )
     }
 }
+
+// text align the inforamtion

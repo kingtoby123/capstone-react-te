@@ -13,7 +13,7 @@ export default function signup(props) {
             <SignupForm changeRoute={props.history.push} handleSetUser ={props.handleSetUser}/>
             <p>Already have an account?</p>
             <div className="login-button">
-                <button onClick={() => props.history.push("/loginForm")}>Login</button>
+                <button className="btn" onClick={() => props.history.push("/loginForm")}>Login</button>
             </div>
         </div>
     )
