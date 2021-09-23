@@ -50,11 +50,11 @@
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                padding-right: 50px;
 
                     ul{
                         align-items: center;
                         text-align: center;
+                        padding: 0;
                     }
             }
             .dynamic{
@@ -63,12 +63,15 @@
                     align-items: center;
                     justify-content: center;
                     text-align: center;
-                    padding-right: 30px;
                 }
 
-                .dynamic-text{
-                    padding-right: 50px;
+                ul{
+                    align-items: center;
+                    text-align: center;
+                    padding: 0;
                 }
+
+               
             }
         }
 
