@@ -1,12 +1,14 @@
 .area-below-header{
 
+    height: 43vh;
     .text-area{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: tan;
+        background-color: rgb(253, 125, 5);
         width: 100vw;
+        height: 35vh;
         text-align: center;
 
 
@@ -15,16 +17,24 @@
             align-items: center;
             justify-content: center;
             font-size: 2em;
+            height: 5vh;
         }
 
         .paragraph-text{
             display: grid;
             width: 50vw;
             text-align: center;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+
+
 
             p{
                 font-size: 150%;
                 color: black ;
+
             }
         }
         
@@ -38,16 +48,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
 
     .contact-area-heading{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
     }
 
     .form{
+        height: 40vh;
 
         .form-group{
             padding: 10px;
@@ -61,8 +72,11 @@
             padding: 10px;
             border-radius: 2px;
             border-bottom: 3px solid rgb(128, 58, 0);
+            border-right: 3px solid rgb(128, 58, 0);
+            border-left: 3px solid rgb(128, 58, 0);
+            border-top: 2px solid rgb(128, 58, 0);
+
             width: 100%;
-            display: block;
             transition: all .3s;
         }
 
@@ -74,6 +88,10 @@
             padding: 10px;
             border-radius: 2px;
             border-bottom: 3px solid rgb(128, 58, 0);
+            border-right: 3px solid rgb(128, 58, 0);
+            border-left: 3px solid rgb(128, 58, 0);
+            border-top: 2px solid rgb(128, 58, 0);
+            
             width: 100%;
             display: block;
             transition: all .3s;
@@ -86,8 +104,14 @@
     }
 
     .text-contact-area{
+        width: 100vw;
+        
         .my-information{
+            height: 15vh;
             text-align: center;
+            justify-content: space-evenly;
+            display: flex;
+            
         }
     }
     

@@ -40,7 +40,7 @@ export default function contact (props) {
             <div className="contact-area-wrapper">
 
                 <div className="contact-area-heading">
-                  <h3>Contact Us</h3>
+                  <h3>Contact Me</h3>
 
                 </div>
 
@@ -70,7 +70,7 @@ export default function contact (props) {
                   <div className="my-information">
                       <div className="phone">
                           <h3>Telephone Number</h3>
-                          971-209-9057
+                            971-209-9057
 
                       </div>
 

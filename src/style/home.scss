@@ -1,6 +1,5 @@
 .home-heading-wrapper{
-   
-    background-color: orangered;
+    background-color: rgb(253, 125, 5);
     width: 100vw;
     height: 300px;
 
@@ -22,6 +21,7 @@
 }
 
 .home-motivation-wrapper{
+    background-color: rgb(253, 125, 5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,6 @@
             text-align: center;
             
             height: 500px;
-            background-color: gray;
 
             .left-box-image{
                 img{
@@ -85,7 +84,6 @@
 
 
             height: 500px;
-            background-color: lightcoral;
 
             .right-box-image{
                 img{

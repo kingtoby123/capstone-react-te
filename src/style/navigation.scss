@@ -1,9 +1,10 @@
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 30px;
     height: 50px;
-    background-color: lightblue;
+    background-color: rgb(65, 57, 57);
+    width: 100vw;
   
     .right-side {
       a {
@@ -31,10 +32,22 @@
       font-size: 0.9rem;
   
       a {
-        color: grey;
+        cursor: pointer;
+        height: 42px;
+        font-size: 1em;
+        font-weight: 500;
+        border: 1px solid transparent;
+        transition: all 0.5s ease-in-out;
+        color: rgb(228, 154, 18);
         text-decoration: none;
+      
+        &:active,
+        &:focus {
+          outline: none;
+        }
+      
         &:hover {
-          color: black;
+          background-color: rgb(167, 80, 9);
         }
       }
   
@@ -44,7 +57,6 @@
   
       .nav-link-active {
         border-bottom: 1px solid black;
-        color: black;
       }
     }
   }
