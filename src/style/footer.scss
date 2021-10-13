@@ -3,7 +3,130 @@
     justify-content: center;
     align-items: center;
     align-self: center;
-    height: 200px;
+    height: 20vh;
     background-color: rgb(65, 57, 57);
+    width: 100vw;
+
+    .company-wrapper{
+        width: 15vw;
+        
+
+        h3{
+            color: rgb(228, 154, 18);
+
+        }
+
+
+        .nav-link-wrapper{
+            height: 22px;
+            border-bottom: 1px solid transparent;
+            transition: 0.5s ease-in-out;
+            margin-right: 20px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+
+            
+            
+          
+
+            a{
+                cursor: pointer;
+                height: 42px;
+                font-size: 1em;
+                font-weight: 500;
+                border: 1px solid transparent;
+                transition: all 0.5s ease-in-out;
+                color: rgb(228, 154, 18);
+                text-decoration: none;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                justify-content: center;
+
+                
+                &:active,
+                &:focus {
+                  outline: none;
+                }
+              
+                &:hover {
+                  background-color: rgb(167, 80, 9);
+                }
+
+            }
+        }
+    }
+
+    .social-media{
+        .social-media-wrapper{
+            border-bottom: 1px solid transparent;
+            transition: 0.5s ease-in-out;
+            margin-right: 20px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            width: 20vw;
+
+
+            h3{
+                color: rgb(228, 154, 18);
+                display: flex;
+                
+            }
+        }
+
+        .instagram{
+            a{
+                
+                cursor: pointer;
+                height: 42px;
+                font-size: 1em;
+                font-weight: 500;
+                border: 1px solid transparent;
+                transition: all 0.5s ease-in-out;
+                color: rgb(228, 154, 18);
+                text-decoration: none;
+                
+                
+                &:active,
+                &:focus {
+                    outline: none;
+                }
+                
+                &:hover {
+                    background-color: rgb(167, 80, 9);
+                }
+            }
+        }
+
+
+        .twitter{
+            a{
+                
+                cursor: pointer;
+                height: 42px;
+                font-size: 1em;
+                font-weight: 500;
+                border: 1px solid transparent;
+                transition: all 0.5s ease-in-out;
+                color: rgb(228, 154, 18);
+                text-decoration: none;
+                
+                
+                &:active,
+                &:focus {
+                    outline: none;
+                }
+                
+                &:hover {
+                    background-color: rgb(167, 80, 9);
+                }
+            }
+        }
+    }
+
+    
+
+
 
 }

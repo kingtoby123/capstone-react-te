@@ -41,7 +41,11 @@ export default class Drills extends Component {
 
                         <div className="static">
 
+                        <div className="static-heading">
                             <h3>Static</h3>
+
+                            </div>
+
                             <div className="static-text">
 
                                 <ul>Hamstring stretch </ul>
@@ -109,10 +113,11 @@ export default class Drills extends Component {
 
 
                             <NavLink to="/defense" activeClassName="nav-link-active">
-                                Defense
+                                    Defense
+
                             </NavLink>
                         
-                    </div>
+                        </div>
 
 
 

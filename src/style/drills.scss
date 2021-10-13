@@ -7,7 +7,8 @@
         justify-content: center;
         flex-direction: column;
         width: 100vw;
-        background-color: orangered;
+        background-color: rgb(253, 125, 5);
+
     }
 
     .information-section{
@@ -15,13 +16,14 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        padding-top:100px ;
+        height: 20vh;
         .text-section{
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            width: 85vw;
+            width: 60vw;
+
         }
     }
 
@@ -34,15 +36,15 @@
         width: 100vw;
 
         p{
-            width: 85vw;
+            width: 60vw;
         }
 
         .stretching-section{
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
+            width: 80vw;
             text-align: center;
-            flex-direction: column;
             
             .static{
                 display: flex;
@@ -50,6 +52,13 @@
                 align-items: center;
                 justify-content: center;
                 text-align: center;
+                height: 25vh;
+
+
+                .static-heading{
+                    text-decoration: underline;
+
+                }
 
                     ul{
                         align-items: center;
@@ -58,11 +67,18 @@
                     }
             }
             .dynamic{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
 
                 .dynamic-heading{
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+                    text-decoration: underline;
+
                 }
 
                 ul{
@@ -83,7 +99,7 @@
         align-items: center;        
         justify-content: center;
         flex-direction: column;
-        padding-bottom: 100px;
+        // padding-bottom: 100px;
         text-align: center;
 
         .drill-information{
@@ -99,8 +115,12 @@
 
         .tip-category{
             display: grid;
-            grid-template-columns: 1fr ;
-            width: 100vw;
+            grid-template-columns: 1fr 1fr 1fr ;
+            width: 50vw;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 35vh;
 
             
             
@@ -110,10 +130,32 @@
                 align-items: center;
                 justify-content: center;
                 img{
-                    height: 200px;
-                    width: 200px;
+                    height: 18vh;
+
+                    width: 15vw;
                     padding-bottom: 25px;
 
+                }
+
+                a{
+
+                    cursor: pointer;
+                    font-size: 1.5em;
+                    font-weight: 500;
+                    border: 1px solid transparent;
+                    transition: all 0.5s ease-in-out;
+                    color: rgb(228, 154, 18);
+                    text-decoration: none;
+                    
+                    
+                    &:active,
+                    &:focus {
+                        outline: none;
+                    }
+                    
+                    &:hover {
+                        background-color: rgb(167, 80, 9);
+                    }
                 }
             }
 
@@ -126,10 +168,33 @@
                 
 
                 img{
-                    height: 200px;
-                    width: 200px;
+                    height: 18vh;
+
+                    width: 15vw;
+
                     padding-bottom: 25px;
 
+                }
+
+                a{
+
+                    cursor: pointer;
+                    font-size: 1.5em;
+                    font-weight: 500;
+                    border: 1px solid transparent;
+                    transition: all 0.5s ease-in-out;
+                    color: rgb(228, 154, 18);
+                    text-decoration: none;
+                    
+                    
+                    &:active,
+                    &:focus {
+                        outline: none;
+                    }
+                    
+                    &:hover {
+                        background-color: rgb(167, 80, 9);
+                    }
                 }
             }
 
@@ -138,11 +203,42 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
+
+                
+
                 img{
                     padding-bottom: 25px;
-                    height: 200px;
-                    width: 200px;
+                    height: 18vh;
+                    width: 15vw;
+
                 }
+
+                a{
+
+                    cursor: pointer;
+                    font-size: 1.5em;
+                    font-weight: 500;
+                    border: 1px solid transparent;
+                    transition: all 0.5s ease-in-out;
+                    color: rgb(228, 154, 18);
+                    text-decoration: none;
+                    
+                    
+                    &:active,
+                    &:focus {
+                        outline: none;
+                    }
+                    
+                    &:hover {
+                        background-color: rgb(167, 80, 9);
+                    }
+                }
+
+                    
+                    
+
+                
             }
         }
     }

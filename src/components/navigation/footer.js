@@ -8,27 +8,40 @@ export default function footer(props) {
         <div className="footer-wrapper">
           <div className="company-wrapper">
               <h3>Company</h3>
-                <div className="nav-link-wrapper">
-                  <NavLink exact to="/" activeClassName="nav-link-active">
-                    Home
-                  </NavLink>
-                </div>
 
-                <div className="nav-link-wrapper">
-                  <NavLink to="/about-me" activeClassName="nav-link-active">
-                    About Me
-                  </NavLink>
-                </div>
+              <div className="nav-link-wrapper">
+                <NavLink to="/" activeClassName="nav-link-active-footer">
+                  Home
+                </NavLink>
+              </div>
 
-                <div className="nav-link-wrapper">
-                  <NavLink to="/contact" activeClassName="nav-link-active">
-                    Contact
-                  </NavLink>
-                </div>
+              <div className="nav-link-wrapper">
+                <NavLink to="/about-me" activeClassName="nav-link-active-footer">
+                  About Me
+                </NavLink>
+              </div>
 
-               
+              <div className="nav-link-wrapper">
+                <NavLink to="/contact" activeClassName="nav-link-active-footer">
+                  Contact
+                </NavLink>
+              </div>
 
-            </div>
+              <div className="nav-link-wrapper">
+                <NavLink to="/login" activeClassName="nav-link-active-footer">
+                  Login
+                </NavLink>
+              </div>
+
+              <div className="nav-link-wrapper">
+                <NavLink to="/drills" activeClassName="nav-link-active-footer">
+                  Drills
+                </NavLink>
+              </div>
+
+          </div>
+
+
             <div className="social-media">
                 <div className="social-media-wrapper">
                     <h3>Social Media</h3>

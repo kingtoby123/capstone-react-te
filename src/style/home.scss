@@ -1,7 +1,7 @@
 .home-heading-wrapper{
     background-color: rgb(253, 125, 5);
     width: 100vw;
-    height: 300px;
+    height: 25vh;
 
 
     .heading{
@@ -11,10 +11,11 @@
         flex-direction: column;
 
         .home-heading-text{
-            width: 75vw;
+            width: 60vw;
             align-items: center;
             justify-content: center;
             text-align: center;
+            // height: 100vh;
         }
 
     }
@@ -28,9 +29,10 @@
     flex-direction: column;
 
     .home-motivation-text{
-        width: 85vw;
+        width: 60vw;
         text-align: center;
         align-items: center;
+        // height: 100vh;
     }
 }
 
@@ -47,6 +49,13 @@
         justify-content: center;
         flex-direction: column;
         width: 85vw;
+        height: 25vh;
+
+        .home-information-text{
+            width: 43vw;
+            // height: 100vh;
+        }
+
 
         
     }
@@ -54,6 +63,11 @@
     .home-mini-box-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 80vw;
+        height: 80vh;
         
         
         
@@ -68,9 +82,13 @@
 
             .left-box-image{
                 img{
-                    height: 300px;
-                    width: 40vw;
+                    height: 34vh;
+                    width: 30vw;
                 }
+            }
+
+            .left-box-text{
+                width: 30vw;
             }
         }
 
@@ -87,9 +105,13 @@
 
             .right-box-image{
                 img{
-                    height: 300px;
-                    width: 40vw;
+                    height: 34vh;
+                    width: 30vw;
                 }
+            }
+
+            .right-box-text{
+                width: 30vw;
             }
         }
     }

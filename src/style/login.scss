@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: orangered;
+    background-color: rgb(253, 125, 5);
     text-align: center;
     width: 100vw;
 
@@ -24,6 +24,7 @@
         
         p{
             font-size: 25px;
+            font-weight: 500;
             
         }
     }
@@ -45,7 +46,7 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
+        height: 70vh;
 
         .auth-form-wrapper{
             display: flex;
@@ -93,6 +94,8 @@
         text-align: center;
         align-items: center;
         padding-bottom: 10px;
+
+       
     }
 
 
